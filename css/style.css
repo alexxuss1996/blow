@@ -1,0 +1,45 @@
+
+/*-----[ Fonts ]--------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'MontserratRegular';
+	src: url('Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MontserratBlack';
+	src: url('Montserrat-Black.eot');
+	src: local('Montserrat Black'), local('MontserratBlack'),
+		url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Montserrat-Black.woff') format('woff'),
+		url('../fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/*-----[ Main styles ]--------------------------------------------------------------*/
+
+
+body {
+	overflow-x: hidden;
+	position: relative;
+	min-width: 320px;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+
+#main__content {
+	min-height: 100vh;
+	background-position: top center;
+	background-size: cover;
+	font-size: 22px;
+	font-family: "MontserratRegular";
+}
+
