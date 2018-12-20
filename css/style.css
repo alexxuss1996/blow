@@ -1,38 +1,4 @@
-/*-----[ Fonts ]--------------------------------------------------------------*/
-@font-face {
-	font-family: "MontserratRegular";
-	src: url("Montserrat-Regular.eot");
-	src: local("Montserrat Regular"), local("Montserrat-Regular"),
-	url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"),
-	url("../fonts/Montserrat-Regular.woff") format("woff"),
-	url("../fonts/Montserrat-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "MontserratBold";
-	src: url("Montserrat-Bold.eot");
-	src: local("../fonts/Montserrat-Bold"), local("Montserrat Bold"),
-	url("../fonts/Montserrat-Bold.eot") format("embedded-opentype"),
-	url("../fonts/Montserrat-Bold.woff") format("woff"),
-	url("../fonts/Montserrat-Bold.ttf") format("truetype");
-	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "MontserratBlack";
-	src: url("../fonts/Montserrat-Black.eot");
-	src: local("../fonts/Montserrat-Black"), local("MontserratBlack"),
-	url("../fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"),
-	url("../fonts/Montserrat-Black.woff") format("woff"),
-	url("../fonts/Montserrat-Black.ttf") format("truetype");
-	font-weight: 900;
-	font-style: normal;
-}
-
-/*-----[ Main styles ]--------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
 
 body {
 	overflow: hidden;
@@ -47,7 +13,7 @@ body {
 	background-position: top center;
 	background-size: cover;
 	font-size: 1.275em;
-	font-family: "MontserratRegular", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	padding-top: 2%;
 	height: 100%;
 	display: -webkit-box;
@@ -82,7 +48,6 @@ body {
 	top: 0;
 	bottom: 0;
 	left: 0;
-
 }
 
 .rotated__text {
@@ -90,12 +55,13 @@ body {
 	-ms-writing-mode: tb-lr;
 	writing-mode: vertical-lr;
 	margin: auto;
-	font-family: "MontserratBold", sans-serif;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
 	text-align: center;
 }
 
 .header__logo {
-	font-family: "MontserratBlack", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 40px;
 	font-weight: 900;
 	float: left;
